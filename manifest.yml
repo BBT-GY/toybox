@@ -1,0 +1,8 @@
+# With this file present in the directory
+# you only type "cf push"
+applications:
+- name: piperhw
+  memory: 64M
+  disk_quota: 256M
+  instances: 1
+  credential_id: yahata@bbtower.co.jp
